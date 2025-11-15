@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#home{
+    background-color: rgb(248, 225, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    padding-top: 7em;
+    padding-bottom: 3em;
+}
+.home1>h2{
+    font-weight: 800;
+    font-size: 2.3em;
+}
+.home1>button{
+    background-color: #fff;
+    padding: 0.4em;
+    border: none;
+    margin-top: 0.8em;
+}
+.nav-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+nav>span{
+    color: blue;
+    font-size: 2em;
+    font-weight: 700;
+}
+nav>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+nav>ul>li{
+    list-style-type: none;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+.fa-2xl{
+    display: none;
+}
+#browse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+#browse>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    border: 0.2em solid black;
+    padding: 0.8em;
+    margin-top: 1em;
+}
+#browse>div>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 0.2em solid black;
+    padding: 0.1em 0.4em;
+}
+#browse>div>button>img{
+    width: 3em;
+    height: 3em;
+}
+#projects>h3{
+    text-align: center;
+}
+.additem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    margin: auto;
+}
+.additem>input{
+    width: 15em;
+    height: 2em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+.additem>select{
+    width: 15em;
+    height: 3em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+.additem>button{
+    background-color: green;
+    padding: 0.6em;
+    border-radius: 1em;
+    border: none;
+    color: #fff;
+    padding: 1em;
+}
+#projects{
+    margin-top: 2em;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    padding: 2em;
+}
+.add>div{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-direction: column;
+}
+.add>div>img{
+    width: 10em;
+}
+@media (max-width:850px) {
+    #home{
+        flex-direction: column-reverse;
+    }
+    .home1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .home1>h2{
+        text-align: center;
+    }
+    .home1>button{
+        margin: 0 auto;
+    }
+}
+@media (max-width:590px) {
+    .links{
+        display: none;
+    }
+    .fa-2xl{
+        display: block;
+    }
+    .show{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 6em;
+        background-color: black;
+        gap: 2em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        width: 100%;
+    }
+    .show>li>a{
+        color: #fff;
+    }
+    #browse>div{
+        padding: 0.3em;
+        gap: 1em;
+    }
+    #browse>div>button>img{
+         width: 2em;
+         height: 2em;
+    }
+    #browse>div>button>h5{
+        font-size: 0.6em;
+    }
+    
+}

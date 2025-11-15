@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <nav>
+        <span>eTrade</span>
+        <ul class="links">
+            <li><a id="link-a-1" href="#home">Home</a></li>
+            <li><a id="link-a-2" href="#browse">Browse</a></li>
+            <li><a id="link-a-3" href="#projects">Products</a></li>
+        </ul>
+        <i class="fa-solid fa-bars fa-2xl" id="bar"></i>
+    </nav>
+    <div id="home">
+        <div class="home1">
+            <h2>Rocco Wireless Headphone</h2>
+            <button>Shop Now</button>
+        </div>
+        <div class="home2">
+        <img src="./Images/images-removebg-preview.png" alt="">
+        </div>
+    </div>
+    <hr>
+    <div id="browse">
+        <h3>Browse your Category</h3>
+        <div class="b-c">
+            <button id="b-c1">
+                <img src="data:image/png;base64,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" alt="">
+                <h5>Computer</h5>
+            </button>
+            <button id="b-c2">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAYFBMVEX///8AAAA0NDTl5eVERET8/PxdXV2mpqaioqL5+fkEBAQNDQ3o6OgICAhPT0/h4eGDg4Pz8/MpKSnV1dWysrK4uLgbGxuNjY07OztxcXF5eXkuLi7KyspVVVVra2sTExPV3C4IAAACWElEQVR4nO2a25KqMBBFExAO4SrMCF5w5v//cjogaCJHumqKHh/24gEkqcoiNPEhWykAAAAAAAAAAAAAAACQIaLDYta7UpeI2FhoJBrH+/j8N5Mk7tny+aFUPT/D9k6Rqg+lXqU81NNDbK00HPv2PnZKLFzTud3fum+uZehIMj17FP4EFZNUobMkMpzq+zVUuX1DU5JNNllwLWeuQTbNVEbeTW/7bz1TNIQxnb5PlNZxH4ZhPkAXfexMW2eMkvgATe2O+1XPCwSd6i+nMa4F3p596PDojNvG+67bD9A5bp3GY6gkvj+SuizU9X9uXEIBIVsgrpRdB6YSS3Waum0kJVBSJlK5J/WKS66i7auKHjsPqI5YtDrIZUpKhYHeVcN/7WtUtdOBSE3dpKhUzMsZsM2huBSno7BUtVoq1Cz9+ipOR/ma4nSEFKR4QIoLpLhAigukuECKC6S4QIoLpLhAigukuECKC6S4QIoLpLhAigukuECKC6S4vK3UW+44vKVUuL61iK01K9V0CYOukZQqdLq+pz3EXWSkxo1tf/ClywGZje2nCEBaPMYj6Ifj1eQSSaWFsITW3+VpoPz2WxqxmnqSOt+GDs9+i0isZCGAk+q2n5r71quqYyWTlfCiSmlqo1uTVOOlXeJaIL/4HOqyV6cqMkRUnbTX1EUioa4x/qbn+NuQvbueB66ZnpewQi7+NgcFH9dPZ0m4T5NYUPAhUjlnJ9MxSjnGKf8mUnkLn+78j/+Z3aEeewvgxXQf0rrODRvTNUIx3TcNNAMAAAAAAAAAAAAAAIDlBwUOH8Dzjf2cAAAAAElFTkSuQmCC" alt="">
+                <h5>Mobile</h5>
+            </button>
+            <button id="b-c3">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACUCAMAAAAqEXLeAAAAY1BMVEX///8BAQEAAADv7+9ERERNTU2wsLD7+/seHh7n5+csLCzY2NiWlpZ1dXX4+PhwcHAJCQkWFhZYWFgjIyMQEBC6urrKysphYWEzMzOgoKDDw8OEhIQ5OTnh4eHQ0NCnp6eOjo4YHCLpAAAE5UlEQVR4nO2bDZeiLBSA82pFlAqClVPN9P9/5YKmW0IBiTH7vjw7Z3dPk5dHvkFcLCKRSCQSiUQikUgkEokEJV0djrjneD5jTxwPq9SXY32GezgBf5xrP457EStJQPxpASC3/01FhBWh9z4cL0do45G72F4UZSShebx4kGxkJIKoxzK+QRGX/zTTHYtSOrIk2289s19SjITkoZgsmWaiEjLOpt+uCkZYFFA2vYVLSYThOl1J5UowI54kEyG58+CksEv8SRKGfdRuFZ+SsrjnkkSJL0k+k2QDmPtqOAlQMo9kQsFXTiZ+elyVph1yPEkKy3latxxgvUkm/xnJ2jm1j0oWtUwnZ67zmY9KfsNJ/J2fXWcKny3uq2j9RZUtZIN1yM4P18klpItVvShyqByS/LDkZdcWdQ4nlxTDdEF7t2XV5yVT9wn25yW3559f3U925MBP306xA0h+iekCO7jUyhAN59jOl1izsY0dQnLVflNM5K9fdrFDSG4Q3LY4qF2pB+knd/0OjNyY+Nka+6QgknvUbxNJy9xYN8OMOIc+J3GzLdbGr4eRrHvJo1XTCbR8GColsrEMJNnAbf8SwMIykOSFim6ys2TmXiiQ5DoHqKvOkhsH8lBL2q8k24hGblfioSTXuFwv0pslNpR4sM2BRi4cF1n7wAJWr78bTLJoa2JxkGOOwTH4Nku6FKO36UuhJcUq1+j4CyQXv3XsdiRK+iJK+iJK+iJK+uJ/KTnTEzG/klk+A5lfycT/MRFJ4lfSGUgsjw99SlL7DQCi+3geyeM8Jf2X43TJol7NTD39XNC/wfo13TLB8CVDhMlczsuZyaafqKte13oKHE1tOdVUxxr6zXodJEFU8LbeLfTEg55yjd8FQjqY+GFM+ysb+tjLaZ1Q099t/vSE4eX9w4lln5WTpi8p6cN4OdQ6Zt9nAZmSlYfeMffRUSjILdcugcP7Qb7mzcj7rLR80KeSDo9lMp9m9/SzFzi8W+A/Qx/h9hjbge8hCfMenJZieCjj4WjwszSGWg/vpZEPTzM9narX0Q0WQBg5vXP5d/80E6oZ51JF1UoiDuiNOlWUYtCDuTOyzUoBIwCle16sxMhMurP/6WZGUpCvA1BEzM8BFAp5kLW1BP44KaCEc58vknDCKGVyIKeuWXltH8R0lg8geXqBvC+pXEnkGxCove2rm+Ot1QjL0UpQzIaAosf14Wur0fW3mn73AWWEsLZiObadsm/ZyXhdKuds/DGZqnxOXo0txxGl5S0ilC6O+yEDlCW1KBr6+CFs18VT1ttxBF3EYWbpMIQX+MWGgPJmE7ycIa0t9haGrwC2bzuN8vLSQ/UaOcLrYE9ehLqP+Dey/fR3q2QkEI4QJdr0TOuocaXsb7SLOP4Yby0ld8qlXC5kMONaScOge9JeRNr1EaZKUra7tWq3weSylcv3UjTpGSZZP7prEtT2twyP79tUeXpS5e4QFgE5MIx0Ca5er7ZWums4JmJIEIHRuLWD3ex3o9yckCSiZBhmugSNaK5BsgOnIrBSOGB5sHEUVr7ZxCnmCdZKGi11lyDMufhhiqRtcYuqPhq4xA0jJiJqi/sdgMqIokqOJcHUDAfSUpkDiKGw23LwxbOIpf2CbHuqHja+qg6fe2m6kNXJtpeMRCKRSCQSiUQikUgkEolEAvIH475ewS2Q47gAAAAASUVORK5CYII=" alt="">
+                <h5>Laptop</h5>
+            </button>
+            <button id="b-c4">
+                <img src="data:image/png;base64,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" alt="">
+                <h5>Gaming PC</h5>
+            </button>
+        </div>
+    </div>
+    <hr>
+    <div id="projects">
+          <h3>Products</h3>
+          <div class="add">
+            
+          </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
