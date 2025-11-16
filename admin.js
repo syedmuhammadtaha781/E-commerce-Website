@@ -5,7 +5,7 @@ let price = document.getElementById("price");
 let category = document.getElementById("category");
 add_btn.addEventListener("click",()=>{
    if (!product.value.trim() || !url.value.trim()  || !price.value.trim() || !category.value.trim()) {
-      alert("fields are empty");
+      alert("Fields are empty");
       return;
    }
    let oldpro = JSON.parse(localStorage.getItem("product"))  || [];

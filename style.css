@@ -74,6 +74,13 @@ nav>ul>li>a{
     border: 0.2em solid black;
     padding: 0.8em;
     margin-top: 1em;
+    flex-wrap: wrap;
+}
+#b-c0{
+    padding: 2em;
+}
+.b-c0-h{
+    margin: 1.8em 0.5em;
 }
 #browse>div>button{
     display: flex;
@@ -140,6 +147,21 @@ nav>ul>li>a{
 }
 .add>div>img{
     width: 10em;
+}
+.p-h-b{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#addproducts{
+    background-color: green;
+    padding: 1em;
+    border: none;
+    border-radius: 0.7em;
+}
+#addproducts>a{
+    text-decoration: none;
+    color: #fff;
 }
 @media (max-width:850px) {
     #home{
